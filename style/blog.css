@@ -95,7 +95,7 @@ nav ul li .active {
 .form-project {
   background-color: rgb(201, 201, 201);
   width: 100%;
-  height: 100vh;
+  height: 750px;
 }
 .form-project form {
   display: flex;
@@ -296,7 +296,7 @@ input {
   }
 
   .form-project {
-    height: 112vh;
+    height: 800px;
   }
   .form-project form {
     width: 400px;
@@ -328,9 +328,6 @@ input {
 }
 
 @media only screen and (max-width: 350px) {
-  .form-project {
-    height: 122vh;
-  }
   .form-project h1 {
     font-size: 22px;
   }
@@ -348,6 +345,6 @@ input {
     font-size: 22px;
   }
   .my-project .card-project .row {
-    width: 250px;
+    width: 200px;
   }
 }
